@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.con-img {
+    margin: 0 auto 3rem;
+}
+
+.con-img img {
+    width: 100%;
+}
+
+#test1 img {
+    height: 100%;
+}
+
+.daimg {
+    height: 30rem;
+}
+
+.contant {
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.contant img {
+    /*height: 10rem;*/
+    margin-bottom: 10px;
+    border: 2px solid #f2db3f;
+}
+
+.contant ul .myli {
+    position: relative;
+}
+
+.myli span {
+    /*font-size:16px;*/
+}
+
+.titles {
+    margin-bottom: 1rem;
+    color: #08d49f;
+}
+
+.store {
+    float: left;
+}
+
+.more {
+    float: right;
+    display: none;
+}
+
+.news {
+    margin-top: 2rem;
+}
+
+.newlist {
+    width: 500px;
+    height: 100px;
+    line-height: 25px;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.list {
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.list li {
+    color: red;
+}
+
+.hover {
+    background: rgba(0, 0, 0, .1);
+}
+
+.gotop {
+    position: fixed;
+    right: 0%;
+    bottom: 50px;
+    margin-left: -80px;
+    display: none;
+}
+
+#header {
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.rvc {
+    position: relative;
+}
+
+.name {
+    position: relative;
+    left: 44%;
+    margin: 0 -4rem 2rem 0;
+    font-size: 2rem;
+    font-family: "黑体";
+    width: 8rem;
+}
+
+#header {
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:970px) {
+    .con-img {
+        width: 90%;
+    }
+    #test1 {
+        height: 5.5rem !important;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .name {
+        left: 0;
+    }
+    .rvc {
+        width: 100%;
+    }
+    .gotop {
+        right: -5.5%;
+        bottom: 9%;
+        z-index: 9999999;
+    }
+    .gotop img {
+        width: 8rem;
+    }
+    .newlist {
+        width: 100%;
+    }
+    .more {
+        display: block;
+    }
+    #cont {
+        /* width: 100%; */
+        /* height: 300px; */
+        transition: height 2s;
+        -webkit-transition: height 2s;
+        margin: auto;
+    }
+    .primary {
+        color: #08d49f;
+        border: 1px solid #08d49f;
+    }
+    .btn-register {
+        background-color: #08d49f;
+    }
+}

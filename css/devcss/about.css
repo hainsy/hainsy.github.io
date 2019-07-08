@@ -1,0 +1,155 @@
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.con-img {
+    margin: 0 auto 3rem;
+    height: 100%;
+}
+
+.con-img .daimg {
+    width: 100%;
+}
+
+.text p {
+    text-indent: 2rem;
+    line-height: 30px;
+}
+
+.daimg {
+    margin: 0.5rem 0;
+}
+
+.modal {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.modal h3 {
+    color: rgb(255, 76, 65);
+}
+
+/* .modal h3,span{
+        line-height: 35px;	
+    } */
+
+.information {
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.wimg {
+    width: 5rem;
+    height: auto;
+}
+
+.title_h {
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+/* .gotop {
+    position: fixed;
+    right: 0%;
+    bottom: 50px;
+    margin-left: -80px;
+    display: none;
+} */
+
+#header {
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.atop {
+    overflow: hidden;
+}
+
+.aboutextz {
+    width: 48%;
+    height: auto;
+    float: left;
+}
+
+.aboutextz h3 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.aboutimg {
+    width: 48%;
+    height: auto;
+    float: right;
+}
+
+.aboutimg img {
+    width: 100%;
+}
+
+.text img {
+    width: 100%;
+    height: auto;
+}
+
+.hengxian {
+    width: 100%;
+    overflow: hidden;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.hengxian span {
+    width: 47%;
+    height: 1px;
+    border-bottom: 1px dashed #4CAE4C;
+    display: block;
+    float: left;
+}
+
+.hengxian i {
+    float: left;
+    font-size: 35px;
+    color: #4CAE4C;
+}
+
+@media screen and (max-width:970px) {
+    .con-img {
+        width: 90%;
+    }
+    .aboutimg {
+        width: 100%;
+        height: auto;
+    }
+    .aboutimg img {
+        width: 100%;
+    }
+    .aboutextz {
+        width: 100%;
+    }
+    .information {
+        display: initial;
+    }
+    .gotop {
+        bottom: 14%;
+    }
+    .gotop img {
+        width: 8rem;
+    }
+    .primary {
+        color: #08d49f;
+        border: 1px solid #08d49f;
+    }
+    .btn-register {
+        background-color: #08d49f;
+    }
+}

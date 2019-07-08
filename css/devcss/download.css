@@ -1,0 +1,32 @@
+html,body{
+    height: 100%;
+}
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+.con-img {
+    width: 1124px;
+    margin: auto;
+    text-align: center;
+    height: 92%;
+}
+
+@media screen and (max-width:970px) {
+    .con-img {
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+    .con-img .btn-primary {
+        margin: 5px;
+    }
+    .primary {
+        color: #08d49f;
+        border: 1px solid #08d49f;
+    }
+    .btn-register {
+        background-color: #08d49f;
+    }
+}

@@ -1,0 +1,28 @@
+.myform {
+    width: 1124px;
+    height: auto;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.myform input {
+    margin: 1rem auto 0.2rem;
+    width: 30%;
+}
+
+.forter {
+    text-align: center;
+}
+
+.forter span {
+    color: #8C8C8C
+}
+
+@media screen and (max-width:970px) {
+    .myform {
+        width: 100%;
+    }
+    .myform input {
+        width: 70%;
+    }
+}

@@ -1,0 +1,150 @@
+
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    /*padding: 15px;*/
+}
+.img{
+	width: 1124px;
+	height: 150px;
+}
+.img img{
+	width: 100%;
+	margin: 0 auto;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (max-width: 768px) {
+    .box{
+        width: 90%;
+        margin:auto;
+    }
+    [class*="col"] {
+        width: 100%;
+    }
+    .percentage{
+    	width: 100%;
+    }
+    .nav_box{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .nav,.login_box{
+    	/* display: none; */
+    }
+    .nav_box .logo,.titlew{
+    	margin-left: 0;
+    	padding: 10px;
+    }
+    .nav_yc_box{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .about_text{
+    	margin-top:0px;
+    }
+    .about_right{
+    	margin-top: 20px;
+    }
+    .product_center{
+    	display: none;
+    }
+    .foot{
+    	width:80%;
+    	padding: 0;
+    }
+    .logox{
+    	width: 20%;
+    	margin-top:0px;
+    }
+    .logox img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .copyright{
+    	font-size:10px;
+    	width: 80%;
+    	margin: 0;
+    }
+    #test1{
+        height: 5.5rem !important;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .jiejue span {
+        font-size: 17px;
+        left: 50%;
+        top: 40%;
+        margin-left: -51px;
+    }
+    /*产品介绍*/
+   .product_center_img{
+   	width: 100%;
+   }
+   .product_center_img img{
+   	width: 100%;
+   }
+   .course_top_img{
+   	width: 100%;
+   	margin-top:6px;
+   }
+   .course_top_img img{
+   	width: 100%;
+   }
+   .bottom{
+   	width: 100%;
+   }
+   .bottom ul{
+   	width: 50%;
+   }
+   .col-6 li{
+    font-size: 12px;
+   }
+   .bottom_div .bottom_text{
+   	/*float:right;*/
+   }
+   .bottom .bottom_div{
+   	width: 50%;
+   }
+   .bottom_div img{
+   }
+   .nav_ul li{
+   	float: left;
+   }
+   /*解决方案*/
+  .analysis_img{
+  	width: 100%;
+  }
+  .analysis_img img{
+      width: 100%;
+      height: 100%;
+  }
+  .analysis_txet .analysis_img{
+	width: 238px;
+	height: 206px;
+	margin: 0 auto;
+	margin-top: 5px;
+  }
+  
+  .contaners ul li {
+    float: left;
+    margin: 0 1rem;
+  }
+  .lianxi{
+      margin:10px 0;
+  }
+}
